@@ -9,30 +9,30 @@ a.navbar-brand[b-ownq2kt1xt] {
 }
 
 a[b-ownq2kt1xt] {
-  color: #0077cc;
+  color: #000;
 }
 
 .btn-primary[b-ownq2kt1xt] {
-  color: #3972CC;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: #000;
+  background-color: #001125;
+  border-color: #18610c;
 }
 
 .nav-pills .nav-link.active[b-ownq2kt1xt], .nav-pills .show > .nav-link[b-ownq2kt1xt] {
-  color: #3972CC;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: #000;
+  background-color: #18610c;
+  border-color: #0861ac;
 }
 
 .border-top[b-ownq2kt1xt] {
-  border-top: 1px solid #3972CC;
+  border-top: 1px solid #397266;
 }
 .border-bottom[b-ownq2kt1xt] {
-  border-bottom: 1px solid #3972CC;
+  border-bottom: 1px solid #397266;
 }
 
 .box-shadow[b-ownq2kt1xt] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .25rem .75rem #000;
 }
 
 button.accept-policy[b-ownq2kt1xt] {
