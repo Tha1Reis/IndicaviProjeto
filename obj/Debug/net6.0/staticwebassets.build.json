@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "islXN8vQvcWzHG73sCX1RSJxB1S5Nq24+7nhCPKK/7M=",
+  "Hash": "JNRh94SLoZ8sXnxjKJpv7cTJRKtTTjrqRehQ3PIY58c=",
   "Source": "Indicavi.Projeto",
   "BasePath": "_content/Indicavi.Projeto",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\image\\logoind.png",
+      "SourceId": "Indicavi.Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\",
+      "BasePath": "_content/Indicavi.Projeto",
+      "RelativePath": "image/logoind.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\logoind.png"
+    },
+    {
+      "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\image\\perfil.png",
+      "SourceId": "Indicavi.Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\",
+      "BasePath": "_content/Indicavi.Projeto",
+      "RelativePath": "image/perfil.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\perfil.png"
     },
     {
       "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\js\\site.js",
