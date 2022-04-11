@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JNRh94SLoZ8sXnxjKJpv7cTJRKtTTjrqRehQ3PIY58c=",
+  "Hash": "Ud3zMm/y6/cEavlNLLO5aSzuBn/ROKrx2vESD7Woa2M=",
   "Source": "Indicavi.Projeto",
   "BasePath": "_content/Indicavi.Projeto",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\image\\LOGO-6GTI.jpg",
+      "SourceId": "Indicavi.Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\",
+      "BasePath": "_content/Indicavi.Projeto",
+      "RelativePath": "image/LOGO-6GTI.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\LOGO-6GTI.jpg"
     },
     {
       "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\image\\logoind.png",
