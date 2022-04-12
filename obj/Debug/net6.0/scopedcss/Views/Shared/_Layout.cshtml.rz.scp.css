@@ -21,7 +21,7 @@ a.navbar-brand[b-ownq2kt1xt] {
 .icon-perfil[b-ownq2kt1xt]{
   position: relative;
   display: inline-block;
-  left: 1250px;
+  left: 1270px;
   bottom: 1px;
   width: 20px;
   height: auto;
@@ -35,16 +35,17 @@ a.navbar-brand[b-ownq2kt1xt] {
 .barra[b-ownq2kt1xt]{
   background: transparent;
 	height: 100%;
-	width: 300px;
+	width: 305px;
 	position: absolute;
   bottom: 1px;
 	left: 700px;
 	transition: all .2s linear;
+
 }
 
 .barra .link[b-ownq2kt1xt]{
 	list-style: none;
-	background-color: #3971cc62;
+	background-color: #3971cca6;
 }
 
 .aba[b-ownq2kt1xt]{

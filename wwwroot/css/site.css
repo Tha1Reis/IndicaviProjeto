@@ -21,7 +21,6 @@ html {
 }
 
 body {
-  
   margin-bottom: 60px;
   background: linear-gradient(0deg, rgba(36, 212, 95, 0.74) 0%, rgba(57, 113, 204, 0.808) 74% );
   
@@ -29,7 +28,7 @@ body {
 
 
 input[type=text] {
-  display: block;
+  display: inline-block;
   position: relative;
   left: 110px;
   width: 1100px;
