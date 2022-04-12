@@ -13,18 +13,29 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-1">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" ><img class="icon-logo" id="icon-logo" src="../../wwwroot/image/logoind.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        
-                        <li class="nav-item">
-                            <a class="nav-link icon-perfil" asp-area="" asp-controller="Home" asp-action="Privacy">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a  asp-area="" asp-controller="Home" asp-action="Privacy"> <img class="icon-perfil" src="../../wwwroot/image/perfil.png" width="100"/> </a>
+                        <li>
+                            <input type="checkbox" id="check">
+                            <label for="check" id="icone"> 
+                            <img class="icon-perfil" src="https://cdn-icons.flaticon.com/png/512/3502/premium/3502768.png?token=exp=1649739760~hmac=52cb82e42cb5ed3f6778cf79e14cc9fd" /> 
+                            </label>
+                            <div class="barra">	
+	                        <nav class="aba">
+		                        <a asp-area="" asp-controller="Home" asp-action="Login" ><div class="link">Login</div></a>
+		                        <a href=""><div class="link">Cadastra-se</div></a>
+		                        <a href=""><div class="link">Favoritos</div></a>
+		                        <a href=""><div class="link">Contato</div></a>
+		                        <a asp-area="" asp-controller="Home" asp-action="Privacy" ><div class="link">Configuração</div></a>
+	                        </nav>	
+                            </div>
+                            <div>
+                            
+
+
+</div>
+         
                         </li>
                     </ul>
                 </div>

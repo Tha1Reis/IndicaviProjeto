@@ -59,6 +59,10 @@ input[type=text]:hover
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
 }
+.caixa{
+  position: relative;
+  left: 35px;
+}
 
 .as{
   height: auto;
@@ -130,7 +134,7 @@ input[type=text]:hover
 .prest-1{
   position: relative;
   top: 30px;
-  left: -860px;
+  right: 860px;
   width: 80px;
   height: 70px;
   display: inline-block;
@@ -141,8 +145,8 @@ input[type=text]:hover
 
 .prest-2{
   position: relative;
-  top: -50px;
-  left: -650px;
+  bottom: 50px;
+  right: 650px;
   width: 80px;
   height: 70px;
   display: inline-block;
@@ -152,8 +156,8 @@ input[type=text]:hover
 
 .prest-3{
   position: relative;
-  top: -50px;
-  left: -610px;
+  bottom: 50px;
+  right: 610px;
   width: 80px;
   height: 70px;
   display: inline-block;
@@ -163,8 +167,8 @@ input[type=text]:hover
 
 .prest-4{
   position: relative;
-  top: -131px;
-  left: -400px;
+  bottom: 131px;
+  right: 400px;
   width: 80px;
   height: 70px;
   display: inline-block;
@@ -174,8 +178,8 @@ input[type=text]:hover
 
 .prest-5{
   position: relative;
-  top: -131px;
-  left: -360px;
+  bottom: 131px;
+  right: 360px;
   width: 80px;
   height: 70px;
   display: inline-block;
@@ -184,8 +188,8 @@ input[type=text]:hover
 }
 .prest-6{
   position: relative;
-  top: -211px;
-  left: -150px;
+  bottom: 211px;
+  right: 150px;
   width: 80px;
   height: 70px;
   display: inline-block;
