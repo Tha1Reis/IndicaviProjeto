@@ -33,7 +33,7 @@ a.navbar-brand {
 }
 
 .barra{
-  background: transparent;
+  background: none;
 	height: 100%;
 	width: 305px;
 	position: absolute;
@@ -45,12 +45,12 @@ a.navbar-brand {
 
 .barra .link{
 	list-style: none;
-	background-color: #3971cca6;
+	background-color: #3971cc;
 }
 
 .aba{
   display: inline-block;
-	width: 100%;
+	width: 98%;
 	position: relative;
 
 }
@@ -101,7 +101,7 @@ p {
 
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem #0a0d97;
+  box-shadow: 0 .25rem .10rem #0a0d97;
 }
 
 button.accept-policy {
@@ -110,6 +110,7 @@ button.accept-policy {
 }
 
 .footer {
+  display: flex;
   position: absolute;
   bottom: 0;
     left: 0;

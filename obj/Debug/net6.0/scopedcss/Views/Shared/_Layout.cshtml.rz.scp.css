@@ -33,7 +33,7 @@ a.navbar-brand[b-ownq2kt1xt] {
 }
 
 .barra[b-ownq2kt1xt]{
-  background: transparent;
+  background: none;
 	height: 100%;
 	width: 305px;
 	position: absolute;
@@ -45,12 +45,12 @@ a.navbar-brand[b-ownq2kt1xt] {
 
 .barra .link[b-ownq2kt1xt]{
 	list-style: none;
-	background-color: #3971cca6;
+	background-color: #3971cc;
 }
 
 .aba[b-ownq2kt1xt]{
   display: inline-block;
-	width: 100%;
+	width: 98%;
 	position: relative;
 
 }
@@ -101,7 +101,7 @@ p[b-ownq2kt1xt] {
 
 
 .box-shadow[b-ownq2kt1xt] {
-  box-shadow: 0 .25rem .75rem #0a0d97;
+  box-shadow: 0 .25rem .10rem #0a0d97;
 }
 
 button.accept-policy[b-ownq2kt1xt] {
@@ -110,6 +110,7 @@ button.accept-policy[b-ownq2kt1xt] {
 }
 
 .footer[b-ownq2kt1xt] {
+  display: flex;
   position: absolute;
   bottom: 0;
     left: 0;
