@@ -223,9 +223,120 @@ body {
 .card{
   position: relative;
   width: 40%;
+  height: 400px;
   align-items: center;
-  background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(246,250,249,0.5354341565727854) 0%);
-  top: 80px;
+  background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(57, 113, 204, 0.63) 0%);
+  top: 50px;
   left: 350px;
+  border: transparent;
 
+}
+
+.logo-log{
+  position: relative;
+  top: 80px;
+}
+
+#caixa-login{
+  position: relative;
+  top: 120px;
+  width: 355px;
+  left: 7px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#caixa-entrar{
+  position: relative;
+  top: 80px;
+  left: 7px;
+  width: 80%;
+  background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(139, 173, 236, 0.535) 0%);
+  color:rgba(0, 0, 0, 0.637);
+  font-weight: bold;
+  font-size: 13px;
+  border: transparent;
+}
+
+#caixa-sal{
+  position: relative;
+  top: 105px;
+  font-size: 12px;
+  right: 140px;
+
+}
+
+#caixa-vol{
+  position: relative;
+  bottom: 230px;
+  right: 180px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-color: #24D460;
+}
+
+#caixa-cad{
+  position: relative;
+  top: 100px;
+  left: 7px;
+  width: 80%;
+  background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(139, 173, 236, 0.535) 0%);
+  color:rgba(0, 0, 0, 0.637);
+  font-weight: bold;
+  font-size: 13px;
+  border: transparent;
+
+}
+
+
+/*css cadastro */
+
+
+.card-cad{
+  position: relative;
+  width: 40%;
+  height: 500px;
+  align-items: center;
+  background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(57, 113, 204, 0.63) 0%);
+  top: 50px;
+  left: 350px;
+  border: transparent;
+
+}
+
+#caixa-cad1{
+  position: relative;
+  top: 80px;
+  width: 660px;
+  left: 55px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+#selecione-cad{
+  width: 330px;
+}
+
+#bot-cad{
+  position: relative;
+  top: 95px;
+  left: 55px;
+  width: 75%;
+  background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(139, 173, 236, 0.535) 0%);
+  color:rgba(0, 0, 0, 0.637);
+  font-weight: bold;
+  font-size: 13px;
+  border: transparent;
+}
+
+#caixa-cvol{
+  position: relative;
+  bottom: 280px;
+  right: 310px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-color: #24D460;
 }

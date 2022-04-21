@@ -16298,6 +16298,11 @@
   "RootNamespace": "Indicavi.Projeto",
   "Documents": [
     {
+      "FilePath": "c:\\GTI\\projeto\\Indicavi.Projeto\\Views\\Login\\Cadastro.cshtml",
+      "TargetPath": "Views\\Login\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\GTI\\projeto\\Indicavi.Projeto\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -16313,8 +16318,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\GTI\\projeto\\Indicavi.Projeto\\Views\\Home\\Login.cshtml",
-      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FilePath": "c:\\GTI\\projeto\\Indicavi.Projeto\\Views\\Login\\Index.cshtml",
+      "TargetPath": "Views\\Login\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
