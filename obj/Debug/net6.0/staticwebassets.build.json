@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "islXN8vQvcWzHG73sCX1RSJxB1S5Nq24+7nhCPKK/7M=",
+  "Hash": "1KGxGvdyPl9LIcJdo203ZYsqsGdd7cI3kz8Nd3dN9qo=",
   "Source": "Indicavi.Projeto",
   "BasePath": "_content/Indicavi.Projeto",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\js\\site.js",
+      "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\js\\email-senha.js",
       "SourceId": "Indicavi.Projeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\",
       "BasePath": "_content/Indicavi.Projeto",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/email-senha.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\email-senha.js"
+    },
+    {
+      "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\js\\init.js",
+      "SourceId": "Indicavi.Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\",
+      "BasePath": "_content/Indicavi.Projeto",
+      "RelativePath": "js/init.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\init.js"
     },
     {
       "Identity": "C:\\GTI\\projeto\\Indicavi.Projeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

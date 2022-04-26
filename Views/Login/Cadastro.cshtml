@@ -1,5 +1,5 @@
 
-<form action="pastadestino.php" method="POST">
+<form name="email-senha">
     <div class="card-cad" style="border-radius: 1rem;">
     <div class="form-row" id="caixa-cad1">
         <div class="form-group col-md-6">
@@ -15,23 +15,29 @@
         </div>
         <br/>
         <div class="form-group col-md-6">
-            <input type="email" class="form-control" id="email-cad" placeholder="E-mail" \
+            <input type="email" name="email"class="form-control" id="email" placeholder="E-mail" \
              required>
         </div>
         <br/>
         <div class="form-group col-md-6">
-            <input type="password" class="form-control" id="senha-cad" placeholder="Senha" required>
+            <input type="password" name="password" class="form-control" id="password" placeholder="Senha" required>
         </div>
         <br/>
         <div class="form-group col-md-4">
-            <select id="selecione-cad" class="form-control" required>
-                <option selected hidden>Selecione</option>
+            <select id="selecione-cad" class="form-control" name="selecione" required>
+                <option selected hidden >Selecione</option>
                 <option value="AC">Prestador de Serviço</option>
                 <option value="AL">Cliente</option>
             </select>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary" id="bot-cad">Cadastrar-se</button>
+    <button type="submit" class="btn btn-primary" id="bot-cad" name="signup">Cadastrar-se</button>
      <a class="btn btn-secondary" asp-controller="Login" asp-action="Index" role="button " id="caixa-cvol"><</a>
     </div>
 </form>
+
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js" ></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js" ></script>
+
+<script src="js/init.js"></script>
+<script src="js/email-senha.js"></script>

@@ -3,23 +3,31 @@
     ViewData["Title"] = "Login";
 }
 
-<form>
+<form name="email-senha">
   <div class="card" style="border-radius: 1rem;">
   <div>
-    <img class="logo-log" src="../../assets/logoind.png" />
+    <img class="logo-log" src="https://scontent.fguj2-1.fna.fbcdn.net/v/t39.30808-6/279354347_679132193399517_8507948031117902509_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=VNKC2roHe2EAX8tOwZU&_nc_ht=scontent.fguj2-1.fna&oh=00_AT9rjf_hmLIBPiqN8FMzsMoiOffLPlwpyubuu-jXdjrZ8w&oe=626BE0CA" />
   </div>
   <div class="mb-3">
-    <input type="email" class="form-control" id="caixa-login" placeholder="Login">
+    <input type="email" name="email" class="form-control" id="caixa-login" placeholder="Login">
   </div>
   <div class="mb-3">
-    <input type="password" class="form-control" id="caixa-login" placeholder="Senha">
+    <input type="password" name="password" class="form-control" id="caixa-login" placeholder="Senha">
   </div>
   <div class="mb-3 form-check" id="caixa-sal">
     <input type="checkbox" class="form-check-input" >
     <label class="form-check-label" for="senha-s">Salvar</label>
   </div>
-  <button type="submit" class="btn btn-primary" id="caixa-entrar">Entrar</button>
+  <button type="submit" class="btn btn-primary" id="caixa-entrar" name="signin">Entrar</button>
   <a class="btn btn-secondary" asp-controller="Login" asp-action="Cadastro" role="button " id="caixa-cad">Cadastrar-se</a>
   <a class="btn btn-secondary" asp-controller="Home" asp-action="Index" role="button " id="caixa-vol">< </a>
   </div>
+
 </form>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js" ></script>
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js" ></script>
+
+<script src="../../wwwroot/js/init.js"></script>
+<script src="../../wwwroot/js/email-senha.js"></script>

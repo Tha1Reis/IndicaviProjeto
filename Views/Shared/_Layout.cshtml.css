@@ -2,26 +2,29 @@
 for details on configuring this project to bundle and minify static web assets. */
 @media screen and (min-width:
 1024px) {
- #main { min-width: 320px; }
+ #main { min-width: 320px; max-width: 100%;}
 }
 
 a.navbar-brand {
-  background-color: #3972cc;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 10px 0px 0px;
   white-space: nowrap;
-
+}
+.navbar{
+  position: relative;
+  width: 100%;
+  border-radius: 5px ;
 }
 .icon-logo{
   position: relative;
   left: 5px;
   bottom: 2px;
-  object-fit: contain;
-  padding: auto;
+  width: 10%;
+  border-radius: 25px;
 }
 .icon-perfil{
   position: relative;
   display: inline-block;
-  left: 1270px;
+  left: 780px;
   bottom: 1px;
   width: 20px;
   height: auto;
@@ -36,9 +39,10 @@ a.navbar-brand {
   background: none;
 	height: 100%;
 	width: 305px;
+  z-index: 2;
 	position: absolute;
-  bottom: 1px;
-	left: 700px;
+  top: 63px;
+	left: 753px;
 	transition: all .2s linear;
 
 }
@@ -47,17 +51,15 @@ a.navbar-brand {
 	list-style: none;
 	background-color: #3971cc;
 }
-
+a:link {
+  text-decoration: none;
+}
 .aba{
   display: inline-block;
 	width: 98%;
 	position: relative;
-
 }
 
-.aba a{
-	text-decoration: none;
-}
 
 .link{
 	color: #f4f4f9;
@@ -99,29 +101,178 @@ p {
 
 }
 
-
 .box-shadow {
-  box-shadow: 0 .25rem .10rem #0a0d97;
+  box-shadow: 0 .1rem .20rem  #0a0c97a8;
 }
 
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
-
-.footer {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: auto;
+/* FOOTER */
+footer{
+	position: fixed;
+	bottom: 0;
 }
-.footer-container p{
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
- 
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #3971cc;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 20%;
+  border-radius: 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #000;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #000;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #000;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #000;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  transparent;
+	border-radius: 8px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* ICONES FOOTER */
+
+.i-icons{
+  width: 100%;
+  display: block;
 }

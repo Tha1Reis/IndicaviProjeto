@@ -7,7 +7,7 @@ html {
 }
 @media screen and (min-width:
 1024px) {
- #main { min-width: 320px; }
+ #main { min-width: 320px; max-width: 100%; }
 }
 
 @media (min-width: 1000px) {
@@ -21,8 +21,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background: linear-gradient(0deg, rgba(36, 212, 95, 0.74) 0%, rgba(57, 113, 204, 0.808) 74% );
+  max-width: 100% ;
+  margin: 0 auto !important;
+  background: linear-gradient(0deg, rgba(36, 212, 95, 0.74) 0%, rgba(57,114,204) 74% );
   
 }
 
@@ -30,11 +31,12 @@ body {
 .caixa-text {
   display: inline-block;
   position: relative;
-  left: 110px;
+  left: 105px;
   width: 1100px;
   height: 25px;
   box-sizing: border-box;
   border-radius: 6px;
+  border: none;
   font-size: 16px;
   
 }
@@ -50,17 +52,17 @@ body {
 
 .pesquisa{
   position: relative;
-  left: -122px;
-  height: 120px;
-  width: 1357px;
+  height: 122px;
+  right: 10.9%;
+  width: 121.9%;
   display: flex;
   background: linear-gradient(75deg, rgba(246,250,249,1) 0%, #75F564 0%);
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
+  caret-color: #24D460;
 }
 .caixa{
   position: relative;
-  left: 35px;
 }
 
 .as{
@@ -228,20 +230,23 @@ body {
   background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(57, 113, 204, 0.63) 0%);
   top: 50px;
   left: 350px;
-  border: transparent;
+  border: 1 #3369c0;
 
 }
 
 .logo-log{
   position: relative;
   top: 80px;
+  left: 195px;
+  width: 10%;
+  border-radius: 10px;
 }
 
 #caixa-login{
   position: relative;
   top: 120px;
   width: 355px;
-  left: 7px;
+  left: 4px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -249,7 +254,7 @@ body {
 #caixa-entrar{
   position: relative;
   top: 80px;
-  left: 7px;
+  left: 4px;
   width: 80%;
   background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(139, 173, 236, 0.535) 0%);
   color:rgba(0, 0, 0, 0.637);
@@ -279,7 +284,7 @@ body {
 #caixa-cad{
   position: relative;
   top: 100px;
-  left: 7px;
+  left: 4px;
   width: 80%;
   background: linear-gradient(75deg, rgba(246,250,249,1) 0%, rgba(139, 173, 236, 0.535) 0%);
   color:rgba(0, 0, 0, 0.637);
